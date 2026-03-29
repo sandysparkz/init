@@ -2,18 +2,19 @@
 
 <br>
 
-### embedded software engineer
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Embedded+Software+Engineer+%40+Linumiz;Zephyr+RTOS+Upstream+Contributor;Linux+Kernel+%7C+Driver+Development;FOSS+is+not+a+preference.+It+is+a+principle." alt="Typing SVG" />
+
+<br><br>
 
 # Santhosh C C
 
-`Linumiz` &nbsp;&middot;&nbsp; `Zephyr RTOS Contributor` &nbsp;&middot;&nbsp; `Linux Kernel` &nbsp;&middot;&nbsp; `FOSS`
-
-<br>
-
-![Zephyr](https://img.shields.io/badge/Zephyr_Contributor-1c7ed6?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux_Kernel-e03131?style=flat-square)
-![C](https://img.shields.io/badge/C-2b8a3e?style=flat-square)
-![Location](https://img.shields.io/badge/Coimbatore_India-495057?style=flat-square)
+<p>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Linumiz-FF4444?style=flat-square&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Coimbatore,_India-333?style=flat-square"/>
+</p>
 
 </div>
 
@@ -23,16 +24,14 @@
 
 <br>
 
-## Upstream Contributions &nbsp;&nbsp; `zephyrproject-rtos/zephyr`
+## Upstream Contributions &nbsp; · &nbsp; `zephyrproject-rtos/zephyr`
 
-<br>
-
-| | Pull Request | Status |
-|---|---|---|
-| ![pr](https://img.shields.io/badge/--%20-bc8cff?style=flat-square&logo=git&logoColor=white&label=) | [`drivers: mspm0:` Add DAC driver for TI MSPM0 series](YOUR_PR_LINK) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| ![pr](https://img.shields.io/badge/--%20-bc8cff?style=flat-square&logo=git&logoColor=white&label=) | [`drivers: mspm0:` Add CAN driver for TI MSPM0 series](YOUR_PR_LINK) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| ![pr](https://img.shields.io/badge/--%20-bc8cff?style=flat-square&logo=git&logoColor=white&label=) | [`drivers: mspm0:` Add SPI driver for TI MSPM0 series](YOUR_PR_LINK) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| ![pr](https://img.shields.io/badge/--%20-3fb950?style=flat-square&logo=git&logoColor=white&label=) | [`subsys: usb: host:` Add USB Host CDC ECM Class Support &nbsp; #99097](https://github.com/zephyrproject-rtos/zephyr/pull/99097) | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
+| Status | Pull Request |
+|---|---|
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add DAC driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add CAN driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add SPI driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![open](https://img.shields.io/badge/open-238636?style=flat-square) | [`subsys: usb: host:` Add USB Host CDC ECM Class Support #99097](https://github.com/zephyrproject-rtos/zephyr/pull/99097) |
 
 <br>
 
@@ -42,7 +41,12 @@
 
 ## Zephyr Subsystems
 
-Worked across &nbsp;`BLE` &nbsp;`USB Host` &nbsp;`LoRa` &nbsp;`LTE Modem` &nbsp;`GNSS` &nbsp;`NPU / MSPM0G3519`
+![BLE](https://img.shields.io/badge/BLE-1864ab?style=flat-square)
+![USB Host](https://img.shields.io/badge/USB_Host-1864ab?style=flat-square)
+![LoRa](https://img.shields.io/badge/LoRa-1864ab?style=flat-square)
+![LTE Modem](https://img.shields.io/badge/LTE_Modem-1864ab?style=flat-square)
+![GNSS](https://img.shields.io/badge/GNSS-1864ab?style=flat-square)
+![NPU](https://img.shields.io/badge/NPU_MSPM0G3519-1864ab?style=flat-square)
 
 <br>
 
@@ -53,12 +57,12 @@ Worked across &nbsp;`BLE` &nbsp;`USB Host` &nbsp;`LoRa` &nbsp;`LTE Modem` &nbsp;
 ## Stack
 
 ```c
-/* Languages  */  C · Python · Shell
-/* RTOS       */  Zephyr RTOS  |  West · Kconfig · DTS · Overlays
-/* Linux      */  Kernel Drivers · Yocto BSP · Mesa · DRM
-/* Protocols  */  CAN · SPI · I2C · BLE · USB · LoRa · LTE · GNSS
-/* Hardware   */  TI MSPM0 · NXP i.MX8MP · STM32
-/* Tools      */  GDB · OpenOCD · West · CMake · Valgrind
+/* Languages  */   C  ·  Python  ·  Shell
+/* RTOS       */   Zephyr RTOS  |  West · Kconfig · DTS · Overlays
+/* Linux      */   Kernel Drivers · Yocto BSP · Mesa · DRM
+/* Protocols  */   CAN · SPI · I2C · BLE · USB · LoRa · LTE · GNSS
+/* Hardware   */   TI MSPM0 · NXP i.MX8MP · STM32
+/* Tools      */   GDB · OpenOCD · West · CMake
 ```
 
 <br>
@@ -69,7 +73,11 @@ Worked across &nbsp;`BLE` &nbsp;`USB Host` &nbsp;`LoRa` &nbsp;`LTE Modem` &nbsp;
 
 <div align="center">
 
-`KCTian '25 ECE` &nbsp;&middot;&nbsp; `Paulian` &nbsp;&middot;&nbsp; `Linumiz`
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sandysparkz&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&bg_color=0d1117)](https://github.com/sandysparkz)
+
+<br>
+
+`KCTian '25 ECE` &nbsp;·&nbsp; `Paulian` &nbsp;·&nbsp; `Linumiz`
 
 *FOSS is not a preference. It is a principle.*
 
