@@ -1,12 +1,8 @@
 <div align="center">
-
 <br>
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Embedded+Software+Engineer+%40+Linumiz;Zephyr+RTOS+Upstream+Contributor;Linux+Kernel+%7C+Driver+Development;FOSS+is+not+a+preference.+It+is+a+principle." alt="Typing SVG" />
 <br><br>
-
 # Santhosh C C
-
 <p>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   &nbsp;
