@@ -1,96 +1,103 @@
-## Embedded Software Engineer | Zephyr RTOS Contributor | FOSS
+<!-- Header -->
+<div align="center">
 
-Working at the firmware layer where hardware meets software.
-Based in Coimbatore, Tamil Nadu. Building at Linumiz.
+```
+███████╗███╗   ███╗██████╗ ███████╗██████╗ ██████╗ ███████╗██████╗
+██╔════╝████╗ ████║██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
+█████╗  ██╔████╔██║██████╔╝█████╗  ██║  ██║██║  ██║█████╗  ██║  ██║
+██╔══╝  ██║╚██╔╝██║██╔══██╗██╔══╝  ██║  ██║██║  ██║██╔══╝  ██║  ██║
+███████╗██║ ╚═╝ ██║██████╔╝███████╗██████╔╝██████╔╝███████╗██████╔╝
+╚══════╝╚═╝     ╚═╝╚═════╝ ╚══════╝╚═════╝ ╚═════╝ ╚══════╝╚═════╝
+```
+
+**Embedded Software Engineer @ Linumiz**
+
+*Zephyr RTOS Contributor · Linux Kernel · FOSS*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
+[![Zephyr](https://img.shields.io/badge/Zephyr_Contributor-4B9CD3?style=flat-square&logo=zephyr&logoColor=white)](https://github.com/zephyrproject-rtos/zephyr)
+[![Location](https://img.shields.io/badge/Coimbatore,_TN-India-FF9933?style=flat-square)](https://maps.app.goo.gl/coimbatore)
+
+</div>
 
 ---
 
-### What I work on
+## ▍ Who I am
 
-- **Zephyr RTOS** -- Upstream driver development for TI MSPM0 series
-  (DAC, CAN, SPI). West build system, Kconfig, DTS overlays.
-- **Linux Kernel** -- Device drivers, Devicetree bindings, Yocto BSP.
-  i.MX8MP with Mesa/NPU for edge ML.
-- **Subsystems** -- BLE, USB, LoRa, LTE Modem, NPU in Zephyr.
-- **Safety Systems** -- ISO 26262 / IEC 61508 aligned development.
-  MISRA C practices.
+Embedded software engineer at **Linumiz**, working bare-metal to OS boundary.
+I write drivers, wrangle devicetrees, and live inside Zephyr and Linux kernel internals.
+
+FOSS is not a side interest. It is the default.
 
 ---
 
-### Upstream Contributions
+## ▍ Upstream Contributions
 
-| Project | Contribution |
-|---|---|
-| zephyrproject-rtos/zephyr | TI MSPM0 DAC, CAN, SPI drivers |
-| zephyrproject-rtos/zephyr | [add others as they land] |
+### zephyrproject-rtos/zephyr
 
----
+| # | PR | Status |
+|---|---|---|
+| `!` | [drivers: mspm0: Add DAC driver for TI MSPM0 series](https://github.com/zephyrproject-rtos/zephyr) | ![merged](https://img.shields.io/badge/-merged-8957e5?style=flat-square) |
+| `!` | [drivers: mspm0: Add CAN driver for TI MSPM0 series](https://github.com/zephyrproject-rtos/zephyr) | ![merged](https://img.shields.io/badge/-merged-8957e5?style=flat-square) |
+| `!` | [drivers: mspm0: Add SPI driver for TI MSPM0 series](https://github.com/zephyrproject-rtos/zephyr) | ![merged](https://img.shields.io/badge/-merged-8957e5?style=flat-square) |
+| `!` | [subsys: usb: host: Add USB Host CDC ECM Class Support for Ethernet #99097](https://github.com/zephyrproject-rtos/zephyr/pull/99097) | ![open](https://img.shields.io/badge/-open-3fb950?style=flat-square) |
 
-### Stack
-```
-Languages  : C, Python, Shell
-RTOS       : Zephyr RTOS
-Linux      : Kernel Drivers, Yocto, Mesa, DRM
-Protocols  : BLE, USB, CAN, SPI, I2C, LoRa, LTE
-Hardware   : TI MSPM0, NXP i.MX8MP, STM32
-Tools      : West, Kconfig, GDB, OpenOCD, Valgrind
-```
+> Replace links with actual PR URLs. Add more rows as contributions land.
 
 ---
 
-### Philosophy
+## ▍ What I Work On
 
-FOSS or bust. Every upstream driver is one less proprietary blob.
+```
+┌─────────────────────────────────────────────────────────┐
+│                    ZEPHYR RTOS                          │
+│                                                         │
+│  Drivers          Subsystems         Toolchain          │
+│  ───────          ──────────         ─────────          │
+│  TI MSPM0 DAC     BLE                West               │
+│  TI MSPM0 CAN     USB (CDC-ECM)      Kconfig            │
+│  TI MSPM0 SPI     LoRa               DTS / Overlays     │
+│  NPU (MSPM0G)     LTE / GNSS Modem                      │
+└─────────────────────────────────────────────────────────┘
 
-KCTian 25 | Paulian | Linumiz
+┌─────────────────────────────────────────────────────────┐
+│                    LINUX / YOCTO                        │
+│                                                         │
+│  Kernel Drivers   BSP                 Platform          │
+│  ──────────────   ───                 ────────          │
+│  DT Bindings      Yocto layers        NXP i.MX8MP       │
+│  Kconfig          Mesa / OpenCL       Edge ML / NPU     │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Personal Website -- Page Structure & Copy
+## ▍ Stack
 
-**Hero section:**
-```
-[Your Name]
-Embedded Software Engineer
-
-I write firmware for hardware that cannot afford to fail.
-Zephyr contributor. Linux driver engineer. FOSS believer.
-@ Linumiz, Coimbatore.
-
-[GitHub]  [LinkedIn]  [Email]
+```c
+const char *languages[] = { "C", "Python", "Shell" };
+const char *rtos[]      = { "Zephyr RTOS" };
+const char *linux[]     = { "Kernel Drivers", "Yocto", "Mesa", "DRM" };
+const char *protocols[] = { "BLE", "USB", "CAN", "SPI", "I2C", "LoRa", "LTE" };
+const char *hardware[]  = { "TI MSPM0", "NXP i.MX8MP", "STM32" };
+const char *tools[]     = { "West", "Kconfig", "GDB", "OpenOCD" };
 ```
 
-**About section:**
+---
+
+## ▍ Philosophy
+
 ```
-I am an embedded software engineer at Linumiz, specialising in 
-Zephyr RTOS and Linux kernel development. My work lives at the 
-boundary between hardware registers and operating system abstractions.
-
-I have upstreamed drivers for the Texas Instruments MSPM0 series 
-into the Zephyr mainline -- DAC, CAN, and SPI -- and worked across 
-BLE, USB, LoRa, LTE modem, and NPU subsystems. On the Linux side, 
-I do kernel driver work, DTS authoring, and Yocto BSP builds, 
-including NPU/Mesa bring-up on NXP i.MX8MP.
-
-I care about correctness, determinism, and open source. 
-Safety-critical constraints are a design input, not an afterthought.
-
-KCTian (KCT, 2025) | Paulian (St. Paul's) | FOSS contributor
+FOSS is not a preference. It is a principle.
+Open source embedded software raises the floor for everyone.
 ```
 
-**Projects section:**
-```
-Zephyr RTOS -- TI MSPM0 Upstream Drivers
-DAC / CAN / SPI drivers, mainline contribution.
-Devicetree bindings, Kconfig integration, West build.
-[View on GitHub]
+---
 
-Linux + Yocto on i.MX8MP
-NPU bring-up with Mesa OpenCL on NXP i.MX8MP.
-Custom Yocto layer, DRM/KMS, edge inference pipeline.
-[Details]
+<div align="center">
 
-Zephyr Subsystem Work
-BLE, USB, LoRa, LTE Modem, NPU on TI MSPM0G3519.
-[GitHub]
+**KCTian '25 (ECE) · Paulian · Linumiz**
+
+*Coimbatore, Tamil Nadu*
+
+</div>
