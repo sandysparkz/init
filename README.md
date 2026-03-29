@@ -1,109 +1,86 @@
 <div align="center">
 
-# Parthiban & the firmware layer
+<br>
 
-**Embedded Systems** · **Coimbatore, Tamil Nadu, India** · **FOSS Contributor**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Embedded+Software+Engineer+%40+Linumiz;Zephyr+RTOS+Upstream+Contributor;Linux+Kernel+%7C+Driver+Development;FOSS+is+not+a+preference.+It+is+a+principle." alt="Typing SVG" />
 
-[![](https://img.shields.io/badge/Zephyr_RTOS-blueviolet?style=flat-square)](#)
-[![](https://img.shields.io/badge/NuttX_RTOS-blue?style=flat-square)](#)
-[![](https://img.shields.io/badge/Linux_Kernel-333333?style=flat-square)](#)
-[![](https://img.shields.io/badge/U--Boot-orange?style=flat-square)](#)
+<br><br>
+
+# Santhosh C C
+
+<p>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Linumiz-FF4444?style=flat-square&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Coimbatore,_India-333?style=flat-square"/>
+</p>
 
 </div>
 
----
-
-### UPSTREAM CONTRIBUTIONS
-
-```
- drivers: sensor: Add <sensor> driver for <board>          - zephyrproject-rtos/zephyr
-```
-```
- arch: arm: Fix <describe fix> for <SoC family>            - zephyrproject-rtos/zephyr
-```
-```
- boards: <board>: Add initial board support                 - apache/nuttx
-```
-
-> _Replace the above with your actual merged commits. Link them like:_
-> _[`commit-hash`](https://github.com/zephyrproject-rtos/zephyr/commit/HASH) if needed._
+<br>
 
 ---
 
-### ZEPHYR / NUTTX SUBSYSTEMS
+<br>
 
-[![](https://img.shields.io/badge/BLE-222?style=flat-square&logo=bluetooth&logoColor=white)](#)
-[![](https://img.shields.io/badge/USB-222?style=flat-square&logo=usb&logoColor=white)](#)
-[![](https://img.shields.io/badge/SPI%20%2F%20I2C-222?style=flat-square)](#)
-[![](https://img.shields.io/badge/Sensor_Drivers-222?style=flat-square)](#)
-[![](https://img.shields.io/badge/Device_Tree-222?style=flat-square)](#)
-[![](https://img.shields.io/badge/LoRa-222?style=flat-square)](#)
-[![](https://img.shields.io/badge/LTE_Modem-222?style=flat-square)](#)
-[![](https://img.shields.io/badge/GNSS-222?style=flat-square)](#)
+## Upstream Contributions &nbsp; · &nbsp; `zephyrproject-rtos/zephyr`
+
+| Status | Pull Request |
+|---|---|
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add DAC driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add CAN driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) | [`drivers: mspm0:` Add SPI driver for TI MSPM0 series](YOUR_PR_LINK) |
+| ![open](https://img.shields.io/badge/open-238636?style=flat-square) | [`subsys: usb: host:` Add USB Host CDC ECM Class Support #99097](https://github.com/zephyrproject-rtos/zephyr/pull/99097) |
+
+<br>
 
 ---
 
-### STACK
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-**Languages**
 <br>
-C · Shell · Kconfig
-<br>DTS · Makefile · CMake
 
-</td>
-<td valign="top" width="33%">
+## Zephyr Subsystems
 
-**Host / Config**
+![BLE](https://img.shields.io/badge/BLE-1864ab?style=flat-square)
+![USB Host](https://img.shields.io/badge/USB_Host-1864ab?style=flat-square)
+![LoRa](https://img.shields.io/badge/LoRa-1864ab?style=flat-square)
+![LTE Modem](https://img.shields.io/badge/LTE_Modem-1864ab?style=flat-square)
+![GNSS](https://img.shields.io/badge/GNSS-1864ab?style=flat-square)
+![NPU](https://img.shields.io/badge/NPU_MSPM0G3519-1864ab?style=flat-square)
+
 <br>
-Vim · Tmux · Bash
-<br>ble.sh · Git · GDB
-
-</td>
-<td valign="top" width="33%">
-
-**Kernel / Drivers**
-<br>
-Zephyr · NuttX
-<br>Linux Kernel · U-Boot
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="33%">
-
-**Hardware**
-<br>
-ARM Cortex-M · RISC-V
-<br>nRF52 · STM32 · ESP32
-
-</td>
-<td valign="top" width="33%">
-
-**Protocols**
-<br>
-SPI · I2C · UART
-<br>BLE · LoRa · LTE
-
-</td>
-<td valign="top" width="33%">
-
-**Build / CI**
-<br>
-West · CMake · Yocto
-<br>Twister · Valgrind
-
-</td>
-</tr>
-</table>
 
 ---
+
+<br>
+
+## Stack
+
+```c
+/* Languages  */   C  ·  Python  ·  Shell
+/* RTOS       */   Zephyr RTOS  |  West · Kconfig · DTS · Overlays
+/* Linux      */   Kernel Drivers · Yocto BSP · Mesa · DRM
+/* Protocols  */   CAN · SPI · I2C · BLE · USB · LoRa · LTE · GNSS
+/* Hardware   */   TI MSPM0 · NXP i.MX8MP · STM32
+/* Tools      */   GDB · OpenOCD · West · CMake
+```
+
+<br>
+
+---
+
+<br>
 
 <div align="center">
 
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sandysparkz&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&bg_color=0d1117)](https://github.com/sandysparkz)
+
+<br>
+
+`KCTian '25 ECE` &nbsp;·&nbsp; `Paulian` &nbsp;·&nbsp; `Linumiz`
+
 *FOSS is not a preference. It is a principle.*
+
+<br>
 
 </div>
